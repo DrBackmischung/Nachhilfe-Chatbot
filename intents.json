@@ -1,0 +1,15 @@
+{"intents": [
+	{
+		"tag": "begrüßung",
+		"patterns":["hello", "hey", "hi", "guten Tag", "eywa", "servus"],
+		"responses": ["Guten Tag", "Hey", "Wie kann ich dir weiterhelfen?","Was möchtest du wissen?"]
+	},
+	{
+		"tag": "verabschiedung",
+		"patterns": ["bye","tschüss", "ciao", "Auf wiedersehen"],
+		"responses": ["Auf Wiedersehen. Viel Erfolg beim Lernen", "Dir viel Spaß beim Lernen"]
+	},
+	{
+		""
+	}
+]}
