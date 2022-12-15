@@ -2,14 +2,24 @@
 	{
 		"tag": "begrüßung",
 		"patterns":["hello", "hey", "hi", "guten Tag", "eywa", "servus"],
-		"responses": ["Guten Tag", "Hey", "Wie kann ich dir weiterhelfen?","Was möchtest du wissen?"]
+		"responses": ["Guten Tag", "Hey", "Wie kann ich dir weiterhelfen?","Was möchtest du wissen?"],
+		"context_set": ""
 	},
 	{
 		"tag": "verabschiedung",
 		"patterns": ["bye","tschüss", "ciao", "Auf wiedersehen"],
-		"responses": ["Auf Wiedersehen. Viel Erfolg beim Lernen", "Dir viel Spaß beim Lernen"]
+		"responses": ["Auf Wiedersehen. Viel Erfolg beim Lernen", "Dir viel Spaß beim Lernen"],
+		"context_set": ""
 	},
 	{
-		""
+		"tag": "allgemeines",
+		"patterns": ["was sind die Öffnungszeiten", "was sind die Zeiten", "wo findet die Nachhilfe statt", "wie finden die treffen statt", "sind die termine online", "wo ist der ort"],
+		"responses": ["Im Allgemeinen stehen dir die Informationen zur Nachhilfe bei dem Buchungsvorgang zur Verfügung. Bei weiteren Fragen rund um das Thema der Nachhilfe, melde dich gerne an unsere Tutore. Sie freunen sich auf dich :)"],
+		"context_set": ""
+	},
+	{	"tag": "preis",
+		"patterns": ["Was ist der Preis?", "wie teuer ist die Nachhilfe", "was ist der letzte preis"],
+		"responses": ["Der Preis wird vom jeweiligen Tutor entschieden. Dieser wird dir bei dem Buchungvorgang angezeigt."],
+		"context_set": ""
 	}
 ]}
